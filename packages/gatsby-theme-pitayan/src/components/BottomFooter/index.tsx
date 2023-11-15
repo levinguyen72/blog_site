@@ -37,9 +37,6 @@ const BottomFooter: React.FC<BottomFooterProps> = ({
             <Link className="site-link block" to="/categories">
               categories
             </Link>
-            <Link className="site-link block" to="/authors">
-              authors
-            </Link>
             <NavigationLinksGroup group="explore" data={siteLinks} />
           </div>
           <div className="space-y-2 text-base">

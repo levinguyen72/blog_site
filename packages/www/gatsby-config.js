@@ -3,12 +3,12 @@ const path = require("path")
 module.exports = {
   pathPrefix: `/gatsby-theme-pitayan`,
   siteMetadata: {
-    title: `Pitayan Blog`,
-    name: `Pitayan`,
+    title: `Levi Blog`,
+    name: `Levi`,
     description:
       "Pitayan blog is a place publishing contents about web development! All articles are free to read and share.",
     siteUrl: `https://pitayan.github.io`,
-    siteSlogan: `Welcome to Pitayan, come find inspiring software development stories.`,
+    siteSlogan: `Welcome to Levi, come find inspiring software development stories.`,
     siteLinks: [
       {
         name: "sitemap",
@@ -23,8 +23,8 @@ module.exports = {
         internal: true,
       },
       {
-        name: "write for us",
-        url: "/write-for-us",
+        name: "Posts",
+        url: "/posts",
         group: "site,home",
         internal: true,
       },
@@ -48,19 +48,13 @@ module.exports = {
       },
       {
         name: "github",
-        url: "https://github.com/Pitayan",
-        group: "connect,home",
-        internal: false,
-      },
-      {
-        name: "twitter",
-        url: "https://twitter.com/pitayanblog",
+        url: "https://github.com/levinguyen72",
         group: "connect,home",
         internal: false,
       },
       {
         name: "email",
-        url: "mailto: pitayanblog@gmail.com",
+        url: "mailto: levinguyen.work@gmail.com",
         group: "connect",
         internal: false,
       },
